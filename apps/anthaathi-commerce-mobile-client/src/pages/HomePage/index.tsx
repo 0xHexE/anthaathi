@@ -57,7 +57,7 @@ const HomePage = (
               subTitle: dataJson.core.homePage.heroSlide.subTitle,
               buttonTitle: dataJson.core.homePage.heroSlide.buttonTitle,
               handlePress: () => {
-                props.navigation.navigate('ProductListPage');
+                props.navigation.navigate('ProductListPage1');
               },
             },
             {
@@ -66,7 +66,7 @@ const HomePage = (
               title: dataJson.core.homePage.heroCategories.title,
               items: dataJson.core.homePage.heroCategories.items,
               onPress: () => {
-                props.navigation.navigate('ProductListPage');
+                props.navigation.navigate('ProductListPage1');
               },
             },
             {
@@ -80,7 +80,7 @@ const HomePage = (
                   button1Text:
                     dataJson.core.homePage.promotionalGrid.items[0].button1Text,
                   onPress1: () => {
-                    props.navigation.navigate('ProductListPage');
+                    props.navigation.navigate('ProductListPage1');
                   },
                   height: [180, 240, 260, 270],
                   image: dataJson.core.homePage.promotionalGrid.items[0].image,
@@ -93,7 +93,7 @@ const HomePage = (
                   button1Text:
                     dataJson.core.homePage.promotionalGrid.items[1].button1Text,
                   onPress1: () => {
-                    props.navigation.navigate('ProductListPage');
+                    props.navigation.navigate('ProductListPage1');
                   },
                   height: [180, 240, 260, 270],
                   image: dataJson.core.homePage.promotionalGrid.items[1].image,
@@ -106,7 +106,7 @@ const HomePage = (
                   button1Text:
                     dataJson.core.homePage.promotionalGrid.items[2].button1Text,
                   onPress1: () => {
-                    props.navigation.navigate('ProductListPage');
+                    props.navigation.navigate('ProductListPage1');
                   },
                   height: [180, 240, 260, 270],
                   image: dataJson.core.homePage.promotionalGrid.items[2].image,
@@ -190,7 +190,7 @@ const HomePage = (
                 },
               ],
               handlePress: () => {
-                props.navigation.navigate('ProductListPage');
+                props.navigation.navigate('ProductListPage1');
               },
             },
             {

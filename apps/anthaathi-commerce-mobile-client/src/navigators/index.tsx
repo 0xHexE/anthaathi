@@ -6,6 +6,7 @@ import ProfilePage from '../pages/ProfilePage';
 import MainPage from '../pages/MainPage';
 import EditProfile from '../pages/EditProfile';
 import AddEditAddress from '../pages/AddEditAddress';
+import {ProductTopTab} from './ProductTopTab';
 import {Image, StyleSheet, View} from 'react-native';
 import {Colors, IconButton, TextInput} from 'react-native-paper';
 
@@ -83,6 +84,11 @@ const MyStack = () => {
       <Stack.Screen
         name="ProductListPage"
         component={ProductListPage}
+        options={{headerShown: false}}
+      />
+      <Stack.Screen
+        name="ProductListPage1"
+        component={ProductTopTab}
         options={{headerShown: false}}
       />
       <Stack.Screen
